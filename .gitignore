@@ -127,6 +127,10 @@ _ReSharper*/
 *.[Rr]e[Ss]harper
 *.DotSettings.user
 
+# JetBrains IntelliJ and Rider IDE
+.idea/
+*.iml
+
 # TeamCity is a build add-in
 _TeamCity*
 
