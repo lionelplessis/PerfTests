@@ -1,4 +1,4 @@
-name: Benchmark.Net Example
+name: Build and run PerfTests
 on:
   push:
     branches:
@@ -6,7 +6,7 @@ on:
 
 jobs:
   benchmark:
-    name: Run Benchmark.Net benchmark example
+    name: Build and run PerfTests with BenchmarkDotNet
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
