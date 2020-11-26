@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1606376088628,
+  "lastUpdate": 1606376880161,
   "repoUrl": "https://github.com/lionelplessis/PerfTests",
   "entries": {
     "Benchmark.Net Benchmark": [
@@ -72,6 +72,42 @@ window.BENCHMARK_DATA = {
             "value": 2346.33633177621,
             "unit": "ns",
             "range": "± 17.9325776444327"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "8976496+lionelplessis@users.noreply.github.com",
+            "name": "Lionel Plessis",
+            "username": "lionelplessis"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "3f9ce096e34d205e725e0e1877db0faf3c98ab59",
+          "message": "Update RunPerfTests.yml",
+          "timestamp": "2020-11-26T08:46:28+01:00",
+          "tree_id": "8b619dfd2a22aca73e0158cada984317b9781d16",
+          "url": "https://github.com/lionelplessis/PerfTests/commit/3f9ce096e34d205e725e0e1877db0faf3c98ab59"
+        },
+        "date": 1606376879266,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "PerfTests.Md5VsSha256.Sha256(N: 1000)",
+            "value": 1089524.3368489584,
+            "unit": "ns",
+            "range": "± 1778.1945256691479"
+          },
+          {
+            "name": "PerfTests.Md5VsSha256.Md5(N: 1000)",
+            "value": 2457.366756984166,
+            "unit": "ns",
+            "range": "± 8.125025994420337"
           }
         ]
       }
