@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Security.Cryptography;
+using System.Threading;
 using BenchmarkDotNet.Attributes;
 using BenchmarkDotNet.Running;
 
@@ -39,7 +40,11 @@ namespace PerfTests
         }
 
         [Benchmark]
-        public byte[] Sha256() => sha256.ComputeHash(data);
+        public byte[] Sha256()
+        {
+            Thread.Sleep(1);
+            return sha256.ComputeHash(data);
+        }
 
         [Benchmark]
         public byte[] Md5() => md5.ComputeHash(data);
